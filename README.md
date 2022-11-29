@@ -1,6 +1,6 @@
 # HW2_SQL_DDL-operation
 
-####Таблица employees
+**Таблица employees**
 
 * Создать таблицу employees
     * id. serial,  primary key,
@@ -88,7 +88,7 @@
     select * from employees;
 ```
 
-####Таблица salary
+**Таблица salary**
 
 * Создать таблицу salary
     * id. Serial  primary key,
@@ -139,7 +139,7 @@
     select * from salary;
 ```
 
-####Таблица employee_salary
+**Таблица employee_salary**
 
 * Создать таблицу employee_salary
     * id. Serial  primary key,
@@ -217,7 +217,7 @@ id | employee_id | salary_id
     select * from employee_salary;
 ```
 
-####Таблица roles
+**Таблица roles**
 
 * Создать таблицу roles
     * id. Serial  primary key,
@@ -281,7 +281,7 @@ id | role_name |
     select * from roles;
 ```
 
-####Таблица roles_employee
+**Таблица roles_employee**
 
 * Создать таблицу roles_employee
     * id. Serial  primary key,
